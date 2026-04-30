@@ -1,0 +1,23 @@
+[
+  {
+    "id": "T-001",
+    "title": "Create hello.py that prints a fixed greeting",
+    "description": "Create a file `hello.py` in the workspace root. When run with `python3 hello.py`, it must print exactly `hello from the harness` followed by a newline. No other output, no command-line arguments.",
+    "acceptance_criteria": [
+      "File hello.py exists at the workspace root.",
+      "Running `python3 hello.py` prints `hello from the harness` followed by a newline, with no extra output and exit code 0."
+    ],
+    "status": "pending"
+  },
+  {
+    "id": "T-002",
+    "title": "Scaffold the todo_cli package with an empty entrypoint",
+    "description": "Create a `todo_cli/` package with `__init__.py` and `__main__.py`. `__main__.py` should define a `main()` function that prints `usage: todo [add|list|done|remove]` to stderr and exits 2 when called with no args. Running `python3 -m todo_cli` should invoke main().",
+    "acceptance_criteria": [
+      "Directory todo_cli/ exists with __init__.py and __main__.py.",
+      "Running `python3 -m todo_cli` prints the usage line to stderr and exits with code 2.",
+      "Running `python3 -c 'import todo_cli; print(todo_cli.__name__)'` prints 'todo_cli'."
+    ],
+    "status": "pending"
+  }
+]

@@ -1,0 +1,3 @@
+# progress.txt — chronological journal of task attempts.
+# Format: ISO-8601 timestamp, task id, outcome, brief notes.
+
