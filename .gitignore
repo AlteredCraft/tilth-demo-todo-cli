@@ -1,0 +1,34 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test & coverage artefacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Type checkers
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
