@@ -25,14 +25,3 @@ A small markdown-backed TODO CLI built incrementally from `prd.json`. Each task 
 - Type-annotate public functions.
 - No global state outside `__main__` blocks.
 
-## Patterns
-
-_(empty — agent appends here)_
-
-## Gotchas
-
-_(empty — agent appends here)_
-
-## Recent learnings
-
-_(empty — agent appends here)_
