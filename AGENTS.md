@@ -4,19 +4,18 @@ Seeded conventions for the todo-cli demo project. The agent appends learnings he
 
 ## Project
 
-A small markdown-backed TODO CLI built incrementally from `prd.json`. Each task in the PRD has explicit acceptance criteria and acceptance tests under `tests/`.
+A small markdown-backed TODO CLI.
 
 ## Language and tooling
 
-- Python 3.12
+- Python 3.12 (use `uv` to init, manage virtual environments, and dependencies).
 - Test framework: `pytest`
 - Formatter / linter: `ruff` (default config)
 - No external runtime dependencies for the CLI itself unless a task says otherwise.
 
 ## Layout
 
-- `hello.py` — slice-1 sentinel script (created by T-001).
-- `todo_cli/` — package directory (created by later tasks).
+- `todo_cli/` — package directory.
 - `tests/` — acceptance tests, mirror of the package layout.
 
 ## Style
