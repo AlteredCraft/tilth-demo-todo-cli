@@ -1,6 +1,6 @@
 # AGENTS.md — todo-cli
 
-Seeded conventions for the todo-cli demo project. The agent appends learnings here as it works.
+Seeded conventions for the todo-cli demo project.
 
 ## Project
 
